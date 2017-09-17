@@ -49,7 +49,7 @@ public class Created_Quizez {
 		frame.setBounds(100, 100, 570, 503);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
-	if(x)
+	if(x)             //x is true for teacher and false for student view
 	{
 		JButton btnCreateNewQuiz = new JButton("Create New Quiz");
 		btnCreateNewQuiz.addActionListener(new ActionListener() {
